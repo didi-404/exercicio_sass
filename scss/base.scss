@@ -1,0 +1,17 @@
+@use "variables" as v;
+
+/* Base / Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: v.$font-family;
+}
+
+body {
+  background-color: v.$color-bg;
+}
+
+li {
+  list-style: none;
+}

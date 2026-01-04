@@ -1,0 +1,8 @@
+@use "variables" as v;
+
+/* Mixins do projeto (SASS Modules) */
+@mixin max($breakpoint) {
+  @media screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
